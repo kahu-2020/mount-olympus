@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const fs = require('fs');
-// const deity = require('./gods.json')
+
 
 
 router.get('/pantheon', (req, res) => {
@@ -25,9 +25,12 @@ router.get('/pantheon/:id', (req, res) => {
       return g.name == god
       
     })
-    res.send(deity)
+    res.render('./profile.hbs', deity)
   })
-   
+  })
+
+  router.get('/form/:id',(req, res) =>{
+    god=req.params.id
     
   })
 
