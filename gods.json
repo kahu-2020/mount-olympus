@@ -2,26 +2,26 @@
     "gods": [
         {
             "name": "Zeus",
-            "domains": "",
+            "domains": "God of the sky, lightning, thunder, law, order, justice, King of the Gods and the “Father of Gods and men”.",
             "prays": "",
             "gender": "male",
             "image": "/images/zeus.jpg"
         },
         {
             "name": "Athena",
-            "domains": "",
+            "domains": "Goddess of wisdom, poetry, art, and war strategy. Daughter of Zeus and born from his forehead fully grown, wearing battle armour.",
             "prays": "",
             "image": "/images/athena.jpg"
         },
         {
             "name": "Hera",
-            "domains": "",
+            "domains": "Goddess of goddesses, women, and marriage. Married to Zeus and known as Queen of the Gods.",
             "prays": "",
             "image": "/image/hera.jpg"
         },
         {
             "name": "Dionysus",
-            "domains": "",
+            "domains": "An Olympian god of the grape harvest, winemaking and wine, of ritual madness, religious ecstasy and theatre.",
             "prays": "",
             "image": "/images/dionysus.png"
         }
