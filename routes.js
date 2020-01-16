@@ -6,7 +6,7 @@ router.get('/pantheon', (req, res) => {
     res.render('./index.hbs',)
       })
 
-router.get('/pantheon/id:', (req, res) => {
+router.get('/pantheon/:id', (req, res) => {
     let god = req.params.id
     
     res.send(god)

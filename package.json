@@ -4,6 +4,7 @@
   "description": "Creating a web server with Express",
   "main": "index.js",
   "scripts": {
+    "debug": "nodemon --inspect index --ignore data.json",
     "start": "node index",
     "test": "jest --watchAll"
   },
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "jest": "^24.5.0",
-    "supertest": "^4.0.2"
+    "supertest": "^4.0.2",
+    "nodemon": "^1.18.10"
   }
 }
