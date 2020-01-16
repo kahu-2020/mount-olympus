@@ -1,0 +1,29 @@
+{
+"gods":[
+    {
+        "name":"Zeus",
+        "domains":"",
+        "prays":"",
+        "gender":"male",
+        "image":""
+    },
+    {
+        "name":"Athena",
+        "domains":"",
+        "prays":"",
+        "image":""
+        },
+    {
+        "name":"Hera",
+        "domains":"",
+        "prays":"",
+        "image":""
+        },
+    {
+        "name":"Dionysus",
+        "domains":"",
+        "prays":"",
+        "image":""
+        }
+]
+}
