@@ -31,7 +31,10 @@ router.get('/pantheon/:id', (req, res) => {
 
   router.get('/form/:id',(req, res) =>{
     god=req.params.id
-    
+    deity = {
+      god:god
+    }
+    res.render('./form.hbs', deity)
   })
 
 module.exports = router
