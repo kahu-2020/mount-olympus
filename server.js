@@ -1,7 +1,7 @@
 const express = require('express')
 const hbs = require('express-handlebars')
 const server = express()
-const skills = require('./skills.js')
+const routes = require('./routes')
 
 // Middleware
 server.engine('hbs', hbs({
@@ -11,8 +11,10 @@ server.engine('hbs', hbs({
   server.use(express.static('public'))
 
 //routes
+  server.use('/', routes)
   server.get('/', (req, res) => {
-	res.render('./index.hbs',)
+	res.redirect('/pantheon',)
     })
+
 
   module.exports = server
