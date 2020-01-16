@@ -1,13 +1,16 @@
 const express = require('express')
 const router = express.Router()
 const fs = require('fs');
+// const deity = require('./gods.json')
+
 
 router.get('/pantheon', (req, res) => {
   fs.readFile('./gods.json', "utf8", (err, data) => {
     if(err){
         res.send("ohshit son ! there be an error")
       }
-    const deity = JSON.parse(data).gods
+    const deity = JSON.parse(data)
+
     res.render('./index.hbs',deity)
       })
     })
