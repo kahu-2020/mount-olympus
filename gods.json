@@ -1,29 +1,29 @@
 {
-"gods":[
-    {
-        "name":"Zeus",
-        "domains":"",
-        "prays":"",
-        "gender":"male",
-        "image":""
-    },
-    {
-        "name":"Athena",
-        "domains":"",
-        "prays":"",
-        "image":""
+    "gods": [
+        {
+            "name": "Zeus",
+            "domains": "",
+            "prays": "",
+            "gender": "male",
+            "image": "/images/zeus.jpg"
         },
-    {
-        "name":"Hera",
-        "domains":"",
-        "prays":"",
-        "image":""
+        {
+            "name": "Athena",
+            "domains": "",
+            "prays": "",
+            "image": "/images/athena.jpg"
         },
-    {
-        "name":"Dionysus",
-        "domains":"",
-        "prays":"",
-        "image":""
+        {
+            "name": "Hera",
+            "domains": "",
+            "prays": "",
+            "image": "/image/hera.jpg"
+        },
+        {
+            "name": "Dionysus",
+            "domains": "",
+            "prays": "",
+            "image": "/images/dionysus.png"
         }
-]
+    ]
 }
