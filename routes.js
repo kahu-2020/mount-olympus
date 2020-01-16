@@ -7,9 +7,19 @@ router.get('/pantheon', (req, res) => {
       })
 
 router.get('/pantheon/:id', (req, res) => {
-    let god = req.params.id
+  god=req.params.id
+  fs.readFile('./gods.json', "utf8", (err, data) => {
+    if(err){
+        res.send("ohshit son ! there be an error")
+      }
+    const deity = JSON.parse(data).gods.find(g =>{
+      return g.name == god
+      
+    })
+    res.send(deity)
+  })
+   
     
-    res.send(god)
-      })
+  })
 
 module.exports = router
