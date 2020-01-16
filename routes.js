@@ -11,7 +11,7 @@ router.get('/pantheon', (req, res) => {
       }
     const deity = JSON.parse(data)
 
-    res.render('./index.hbs',deity)
+    res.render('./index.hbs', deity)
       })
     })
 
