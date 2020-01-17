@@ -11,6 +11,7 @@
             "name": "Athena",
             "domains": "Goddess of wisdom, poetry, art, and war strategy. Daughter of Zeus and born from his forehead fully grown, wearing battle armour.",
             "prays": "",
+            "gender": "female",
             "image": "/images/athena.jpg"
         },
         {
@@ -23,6 +24,7 @@
             "name": "Dionysus",
             "domains": "An Olympian god of the grape harvest, winemaking and wine, of ritual madness, religious ecstasy and theatre.",
             "prays": "",
+            "gender": "male",
             "image": "/images/dionysus.png"
         }
     ]

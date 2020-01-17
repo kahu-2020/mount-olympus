@@ -1,14 +1,40 @@
 body{
     background-color: bisque;
+    font-family: 'GFS Didot', serif;
 }
 
 .header{
-
     background-image: url(/public/images/crownImage.png);
     width: 90%;
     margin: 0 auto;
-
+    text-align: center;
+    padding: 55px;
 }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gods-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    padding: 190px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.god{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+
 .form {
     display: flex;
     flex-direction: column;
