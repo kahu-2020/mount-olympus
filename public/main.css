@@ -1,6 +1,6 @@
 body{
     background-color: bisque;
-    font-family: 'GFS Didot', serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
@@ -22,7 +22,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     width: 60%;
-    padding: 190px;
+    padding: 90px;
     margin: 0 auto;
     text-align: center;
 }
