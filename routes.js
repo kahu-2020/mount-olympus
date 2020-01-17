@@ -21,7 +21,7 @@ router.get('/pantheon/:id', (req, res) => {
     if(err){
         res.send("ohshit son ! there be an error")
       }
-    const deity = JSON.parse(data).gods.find(g =>{
+    let deity = JSON.parse(data).gods.find(g =>{
       return g.name == god
       
     })
@@ -37,4 +37,29 @@ router.get('/pantheon/:id', (req, res) => {
     res.render('./form.hbs', deity)
   })
 
+
+//  router.post('/form/:id' ,(req, res) =>{
+//     god=req.params.id
+//     let updatedgod = {
+
+//     }
+//     fs.readFile('./gods.json', "utf8", (err, data) => {
+//       if(err){
+//           res.send("ohshit son ! there be an error")
+//         }
+//         let deity = JSON.parse(data).gods.map(g => {
+//           if(g.name == god){
+//             g = updatedgod
+//           }
+//         }) 
+//       })
+//     fs.writeFile('./gods.json', JSON.stringify(deity, null, 2), (err) => {
+//       if(err){
+//         res.send("ohshit son ! there be an error")
+//         res.redirect('/')
+//        }
+      
+//     })  
+
+//  })x
 module.exports = router
