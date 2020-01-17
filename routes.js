@@ -4,6 +4,7 @@ const fs = require('fs');
 
 
 
+
 router.get('/pantheon', (req, res) => {
   fs.readFile('./gods.json', "utf8", (err, data) => {
     if(err){
@@ -43,6 +44,10 @@ router.get('/pantheon/:id', (req, res) => {
     god=req.params.id
     console.log(req.body.prays)
     res.redirect('/')
-
+    input = req.body.prays
+    fs.appendFile(god+'.txt', input, (err) => {
+      
+      console.log(input)
+    })
  })
 module.exports = router
