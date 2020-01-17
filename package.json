@@ -19,10 +19,12 @@
   },
   "homepage": "https://github.com/dev-academy-challenges/express-server#readme",
   "dependencies": {
+   
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2"
   },
   "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "jest": "^24.5.0",
     "supertest": "^4.0.2",
     "nodemon": "^1.18.10"
