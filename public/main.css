@@ -11,13 +11,13 @@ body{
     padding: 55px;
 }
 
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.gods-wrapper{
+.gods-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -40,3 +40,7 @@ body{
     width: 230px;
     height: 230px;
   }
+
+.profile-style {
+    text-align: center;
+}
