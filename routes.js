@@ -41,26 +41,8 @@ router.get('/pantheon/:id', (req, res) => {
 
  router.post('/form/:id' ,(req, res) =>{
     god=req.params.id
-    let updatedgod = {
-
-    }
-    fs.readFile('./gods.json', "utf8", (err, data) => {
-      if(err){
-          res.send("ohshit son ! there be an error")
-        }
-        let deity = JSON.parse(data).gods.map(g => {
-          if(g.name == god){
-            g = updatedgod
-          }
-        }) 
-      })
-    fs.writeFile('./gods.json', JSON.stringify(deity, null, 2), (err) => {
-      if(err){
-        res.send("ohshit son ! there be an error")
-        res.redirect('/')
-       }
-      
-    })  
+    console.log(req.body.prays)
+    res.redirect('/')
 
  })
 module.exports = router
